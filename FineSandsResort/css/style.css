@@ -1,0 +1,132 @@
+/* FONTS FOR WEBSITE */
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Quicksand-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: font_select;
+    src: url(../fonts/Quicksand-LightItalic.otf);
+    font-weight: bold;
+}
+
+div.contentBox {
+  margin: 2%;
+}
+
+/* DEFINING IMAGES AND PLACEMENT */
+div.headerBox {
+  height: 400px;
+  text-align: center;
+  background-image: url(../images/beachView.jpg);
+  background-size:auto;
+  transition: all .2s ease-in-out;
+
+}
+div.headerBox:hover {
+transition: scale(1.1);
+}
+div.headerBox h1 {
+  line-height: 300px;
+  font-size: 50px;
+  padding: 2%;
+  font-family: myFirstFont;
+  color: white;
+
+}
+
+/*div.contentBox h1 {
+  padding: 7%;
+  height: 400px;
+  font-size: 100px;
+  color: white;
+  font-family: font_select;
+}*/
+
+/*div.sectionA {
+  height: 500px;
+  width: 92%;
+  padding: 4%;
+  border: 2px white solid;
+  border-radius: 8% 8% 0% 0%;
+  background-color: #C0C0C0;
+  height: 400px;
+  float: left;
+}
+div.sectionA img {
+  border-radius: 50%;
+  border: 3px white solid;
+  float: left;
+  height: 600px;
+  width: 600px;
+  transition: all .2s ease-in-out;
+  opacity: 0.5;
+}
+div.sectionA img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+
+
+
+/* sectionB is inverse of sectionA with image on the right
+div.sectionB {
+  padding: 4%;
+  border: 2px white solid;
+  border-radius: 8% 8% 0% 0%;
+  background-color: #909090;
+  height: 400px;
+}
+div.sectionB img {
+  border-radius: 50%;
+  border: 3px white solid;
+  float: right;
+  height: 600px;
+  width: 600px;
+  transition: all .2s ease-in-out;
+  opacity: 0.5;
+}
+div.sectionB img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+.clear {
+  clear: both;
+}
+*/
+
+
+
+
+
+
+div.textBoxRight {
+  width: 800px;
+  text-align: right;
+  float: right;
+}
+
+div.textBoxRight p {
+  font-family: myFirstFont;
+  color: white;
+  font-size: 40px;
+  text-align: right;
+
+}
+div.textBoxLeft {
+  width: 800px;
+  text-align: left;
+  float: left;
+}
+
+div.textBoxLeft p {
+  font-family: myFirstFont;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+
+}
+
+/* SET UP TEXT BOXES FOR ANIMAL DESCRIPTION */
