@@ -1,4 +1,32 @@
+@font-face {
+  font-family: header1;
+  src: url(../fonts/Pacifico.ttf);
+}
+
+@font-face {
+  font-family: greyText;
+  src: url(../fonts/Arizona-Regular.ttf);
+}
+
+.row {
+  padding: 2%;
+}
+
+
 #headerNfo {
   background-image: url(../images/backgrounds/landing.jpg);
   background-size: 100%;
+
+}
+
+
+#myHeader {
+  font-family: header1;
+  font-size: 42px;
+
+}
+
+#smallFont {
+  font-family: greyText;
+  font-size: 13px;
 }

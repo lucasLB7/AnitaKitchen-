@@ -1,12 +1,5 @@
-$( "li" ).hover(
-  function() {
-    $( this ).append( $( "<span> ***</span>" ) );
-  }, function() {
-    $( this ).find( "span:last" ).remove();
-  }
-);
+var age = $("input:radio[name=flavor]:checked").val();
 
-$( "li.fade" ).hover(function() {
-  $( this ).fadeOut( 100 );
-  $( this ).fadeIn( 500 );
-});
+
+
+            
