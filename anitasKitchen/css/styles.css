@@ -38,6 +38,7 @@
   height:200px;
   transition: all .2s ease-in-out;
   line-height: 95px;
+  color: white;
 }
 
 
@@ -45,11 +46,14 @@
   background-color: #F7F7F7;
   transform: scale(1.1);
   font-family: greyText;
+  color: black;
+   box-shadow: 2px 4px #888888;
 }
 
 #split {
   height: 95px;
   background-color: grey;
+  color: white;
 }
 
 
@@ -208,3 +212,21 @@
 .dropdown a:hover {background-color: #ddd}
 
 .show {display:block;}
+
+
+
+div.logoImg {
+  background-image: url(../images/logoBig.png);
+  background-size: 400%;
+}
+
+#logoSize {
+  height: 200px;
+  width: 200px;
+}
+
+div.imgBack{
+  border: 3px white solid;
+  width: 200px;
+  height: 200px;
+}
