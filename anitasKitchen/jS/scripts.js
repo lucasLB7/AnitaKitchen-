@@ -1,31 +1,18 @@
-var age = $("input:radio[name=flavor]:unchecked").val();
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
 
-  if (age > 21) {
-    $('#drinks').show();
-  } else if (age === 21) {
-    alert("Now don't go crazy!");
-    $('#drinks').show();
-  } else {
-    $('#under-21').show();
-  }
-});
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
 
-
-$(document).ready(function() {
-      var over21 = confirm("Are you over 21? Click OK for yes or Cancel for no.");
-
-      if (over21) {
-        $('#drinks').show();
-      } else {
-        $('#under-21').show();
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
       }
-    });
-
-$(document).ready(function(){
-        $('#Ihover').hover(function(){
-            $(this).css("background-color", "yellow");
-            }, function(){
-            $(this).css("background-color", "pink");
-        });
-    });
+    }
+  }
+}
