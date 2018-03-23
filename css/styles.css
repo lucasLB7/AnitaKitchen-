@@ -8,8 +8,12 @@
   src: url(../fonts/Arizonia-Regular.ttf);
 }
 
+div.backGroundBox {
+  width: 90%;
+}
+
 .row {
-  padding: 5%;
+  padding: 3%;
 }
 
 
@@ -22,6 +26,7 @@
 #myHeader {
   font-family: header1;
   font-size: 30px;
+  color: white;
 }
 
 #smallFont {
@@ -225,8 +230,15 @@ div.logoImg {
   width: 200px;
 }
 
-div.imgBack{
+#imgBack{
   border: 3px white solid;
   width: 200px;
   height: 200px;
+}
+
+#mixTwo {
+  float:left;
+  width: 200px;
+  height:300px;
+
 }
