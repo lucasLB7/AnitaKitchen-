@@ -1,0 +1,134 @@
+div.MainBodyBackground {
+	padding: 1%;
+}
+
+div.header {
+	background-image: url(../images/backgrounds/landing.jpg);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+	background-position: center;
+	background-size:cover;
+	width: 100%;
+	height: 400px;
+}
+
+
+div.combinePh1 {
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/fastFood1.jpg);
+	background-repeat: no-repeat;
+	padding: 0%;
+	background-position: center;
+}
+
+div.combinePh {
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/fastFood2.jpg);
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+}
+
+#images {
+width: 100%;
+height: 400px;
+}
+
+div.image {
+background-image: url(../images/fastFood1.jpg), url(../images/fastFood2.jpg);
+background-position: center top, center bottom;
+background-repeat: no-repeat;
+width: 300px;
+height: 350px;
+}
+
+
+div.sectionA {
+  border: 2px white solid;
+  background-color: #C0C0C0;
+  height: 800px;
+}
+div.sectionA img {
+  border-radius: 50%;
+  border: 3px white solid;
+  float: left;
+  height: 600px;
+  width: 600px;
+  transition: all .2s ease-in-out;
+  opacity: 0.5;
+}
+div.sectionA img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+  transform: rotate(-10deg);
+}
+div.sectionA img:hover::before{
+
+}
+
+
+
+
+
+
+/*sectionB is inverse of sectionA with image on the right*/
+div.sectionB {
+  border: 2px white solid;
+  background-color: #909090;
+  height: 800px;
+}
+div.sectionB img {
+  border-radius: 50%;
+  border: 3px white solid;
+  float: right;
+  height: 600px;
+  width: 600px;
+  transition: all .2s ease-in-out;
+  opacity: 0.5;
+}
+div.sectionB img:hover{
+
+  opacity: 1;
+}
+.clear {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+div.textBoxRight {
+  width: 800px;
+  text-align: center;
+  float: right;
+}
+
+div.textBoxRight p {
+  font-family: myFirstFont;
+  color: white;
+  font-size: 40px;
+  text-align: right;
+
+}
+div.textBoxLeft {
+  width: 800px;
+  text-align: left;
+  float: left;
+}
+
+div.textBoxLeft p {
+  font-family: myFirstFont;
+  color: white;
+  font-size: 40px;
+  text-align: left;
+
+}
